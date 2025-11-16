@@ -4499,7 +4499,7 @@ header .header-top-bar .top-social-icons a:hover {
 }
 
 .hero-1 .hero-contents {
-  padding-top: 215px;
+  padding-top: 150px;
   padding-bottom: 220px;
 }
 
@@ -11385,6 +11385,7 @@ header .header-top-bar .top-social-icons a:hover {
   position: relative;
 }
 
+.parten-section.dot-bg,
 .brand-carousel-wrapper.dot-bg {
   background-color: #ffffff;
   background-image: radial-gradient(#E6E6E6 1px, transparent 0);
