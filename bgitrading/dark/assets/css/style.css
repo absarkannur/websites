@@ -3095,7 +3095,8 @@ header .header-right-elements>a {
 header .side-menu-toggle {
   font-size: 36px;
   line-height: 1;
-  color: #191514 !important;
+  color: #e0af51 !important;
+  background-color: transparent !important;
 }
 
 header .side-menu-toggle:hover {
@@ -5828,7 +5829,7 @@ header .header-top-bar .top-social-icons a:hover {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  height: 100vh;
+  height: calc(100vh - 87px);
 }
 
 .hero-wrapper .video_bg {
@@ -5842,7 +5843,7 @@ header .header-top-bar .top-social-icons a:hover {
 
 .hero-wrapper .hero-slider-active {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
+  height: calc(100vh - 87px);
 }
 
 .hero-wrapper.hero-4 {
@@ -5879,7 +5880,12 @@ header .header-top-bar .top-social-icons a:hover {
     padding-bottom: 80px;
     text-align: center;
   }
+
+  .fs-sm {
+    font-size: 30px;
+  }
 }
+
 
 .hero-wrapper.hero-4 .single-slide::before {
   position: absolute;
@@ -7423,6 +7429,7 @@ header .header-top-bar .top-social-icons a:hover {
 
 .single-service-box .contents h4 {
   margin: 20px 0px;
+  height: 65px;
 }
 
 .single-service-box .service-bg {
@@ -21154,6 +21161,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .our-service-wrapper p {
   color: #191514;
+  height: 140px;
 }
 
 .core-features-wrapper .block-contents .section-title span {
