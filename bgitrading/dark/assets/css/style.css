@@ -3170,7 +3170,7 @@ header.header-1 .main-menu ul>li>a {
 }
 
 header.header-1 .main-menu ul>li:hover>a {
-  color: #001041;
+  color: #e0af51;
 }
 
 header.header-1 .main-menu ul>li:hover>ul {
@@ -3182,7 +3182,7 @@ header.header-1 .main-menu ul>li:hover>ul {
 header.header-1 .main-menu ul>li>ul {
   position: absolute;
   top: 100%;
-  width: 200px;
+  width: 250px;
   background-color: #FFF;
   left: 0;
   z-index: 999;
@@ -4531,6 +4531,7 @@ header .header-top-bar .top-social-icons a:hover {
 }
 
 .hero-1 .hero-contents h1 {
+  font-size: 44px;
   margin-bottom: 30px;
   color: #e0af51;
   opacity: 0;
@@ -6230,7 +6231,7 @@ header .header-top-bar .top-social-icons a:hover {
   border-left: 5px solid #e0af51;
   font-style: italic;
   padding-left: 20px;
-  color: #191514;
+  color: #fff;
   font-size: 20px;
   font-weight: 500;
   margin-top: 30px;
@@ -7282,6 +7283,11 @@ header .header-top-bar .top-social-icons a:hover {
   margin-top: 30px;
 }
 
+.single-icon-border-box h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
 @media (max-width: 1191px) {
   .single-icon-border-box {
     padding: 25px;
@@ -7291,7 +7297,7 @@ header .header-top-bar .top-social-icons a:hover {
 .single-icon-border-box .icon {
   float: left;
   overflow: hidden;
-  font-size: 70px;
+  font-size: 40px;
   line-height: 1;
   color: #e0af51;
   margin-right: 20px;
@@ -13356,7 +13362,7 @@ header .header-top-bar .top-social-icons a:hover {
 }
 
 .contact-us-wrapper {
-  background-color: #F9FAFE;
+  background-color: #191514;
 }
 
 .contact-us-sidebar {
@@ -13378,21 +13384,19 @@ header .header-top-bar .top-social-icons a:hover {
   margin-bottom: 30px;
 }
 
+.contact-us-sidebar .contact-info .single-info .text span {
+  color: #000;
+}
+
+.contact-us-sidebar .contact-info .single-info .text h5 {
+  font-size: 16px;
+}
+
 @media (min-width: 991px) and (max-width: 1115px) {
   .contact-us-sidebar .contact-info {
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
-}
-
-.contact-us-sidebar .contact-info::after {
-  background: #EBEDF2;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
 }
 
 .contact-us-sidebar .live-chat a {
@@ -21212,7 +21216,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .faq-funfact-section,
 .news-wrapper {
-  background-color: #ffffff;
+  background-color: #191514;
 }
 
 .faq-funfact-section .single-fun-fact h3 {
@@ -21226,4 +21230,42 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .footer-wrap .single-footer-wid ul li>a,
 .footer-wrap .single-footer-wid.site_info_widget .single-contact-info a {
   color: #fff;
+}
+
+
+.list-of-work-with-us {
+  list-style: none;
+}
+
+.list-of-work-with-us .list {
+  border: solid 1px #fff;
+  float: left;
+  padding: 10px 30px 10px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px
+}
+
+.list-of-work-with-us .list i {
+  color: #e0af51;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 575px) {
+  .list-of-work-with-us .list {
+    width: 100%;
+    justify-content: left;
+  }
+}
+
+.google-map {
+  height: 450px;
+  background-color: #000000;
 }
