@@ -1,0 +1,35 @@
+.video_bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.welcome-one,
+.faq-one,
+.news-one {
+    background-color: var(--thm-black);
+}
+
+.welcome-one .welcome-one__title,
+.welcome-one .welcome-one__text,
+.section-title__title,
+.section-title__tagline {
+    color: var(--thm-base);
+}
+
+.cases-one .section-title__title,
+.cases-one .section-title__tagline {
+    color: var(--thm-black);
+}
+
+.faq-one__list li .text p {
+    color: var(--thm-base);
+}
+
+.testimonials-one .section-title__title,
+.testimonials-one .section-title__tagline {
+    color: var(--thm-black);
+}
