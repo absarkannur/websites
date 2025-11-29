@@ -4,7 +4,7 @@
         <div class="main-menu-wrapper">
             <div class="main-menu-wrapper__left">
                 <div class="main-menu-wrapper__logo">
-                    <a href="index.php"><img src="assets/images/logo-1.png" alt=""></a>
+                    <a href="index.php"><img style="height: 54px;" src="assets/images/logo.svg" alt=""></a>
                 </div>
                 <div class="main-menu-wrapper__main-menu">
                     <a href="#" class="mobile-nav__toggler">

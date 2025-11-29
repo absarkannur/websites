@@ -7,7 +7,7 @@
 
         <div class="logo-box">
             <a href="index.html" aria-label="logo image">
-                <img src="assets/images/logo-1.png" width="155" alt="" />
+                <img src="assets/images/logo.svg" width="155" alt="" />
             </a>
         </div>
         <div class="mobile-nav__container"></div>

@@ -8,7 +8,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-logo">
-                            <a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a>
+                            <a href="index.html"><img style="height: 90px;" src="assets/images/footer-logo.svg" alt=""></a>
                         </div>
                         <p class="footer-widget__text">Welcome to our consultancy agency. Lore ipsum simply text
                             amet cing elit.</p>
