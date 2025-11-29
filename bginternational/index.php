@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aivons HTML Template For Business Consulting" />
+    <title>Bahri Group International LLC</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/jarallax.css" />
+    <link rel="stylesheet" href="assets/css/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/css/odometer.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/css/external.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+
+<body>
+
+    <?php require('./inc/mobile-nav.php') ?>
+
+    <div class="page-wrapper">
+
+        <?php require('./inc/header.php') ?>
+
+        <section class="main-slider">
+
+            <div class="swiper-container thm-swiper__slider swiper-container-fade swiper-container-initialized swiper-container-horizontal"
+                data-swiper-options="{&quot;slidesPerView&quot;: 1, &quot;loop&quot;: true,
+            &quot;effect&quot;: &quot;fade&quot;,
+            &quot;pagination&quot;: {
+                &quot;el&quot;: &quot;#main-slider-pagination&quot;,
+                &quot;type&quot;: &quot;bullets&quot;,
+                &quot;clickable&quot;: true
+            },
+            &quot;navigation&quot;: {
+                &quot;nextEl&quot;: &quot;#main-slider__swiper-button-next&quot;,
+                &quot;prevEl&quot;: &quot;#main-slider__swiper-button-prev&quot;
+            },
+            &quot;autoplay&quot;: {
+                &quot;delay&quot;: 2000
+            }}">
+                <div class="swiper-wrapper" style="transition-duration: 0ms;">
+
+
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0">
+                        <video class="video_bg" autoplay="" loop="" muted="">
+                            <source src="./assets/video/v13076304_1280_720_60fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="layer"></div>
+                        <div class="main-slider-shape-1"></div>
+                        <div class="main-slider-shape-2"></div>
+                        <div class="main-slider-shape-3"></div>
+                        <div class="main-slider-shape-4"></div>
+                        <div class="main-slider-shape-5"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="main-slider__content">
+                                        <p>WELCOME TO BGI PROPERTY ADVISORS</p>
+                                        <h2>REAL ESTATE SOLUTIONS WITH IMPACT</h2>
+                                        <a href="index.html" class="thm-btn">Discover More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide-active"
+                        style="background-image: url('./assets/images/slider/slide-1.png');"
+                        data-swiper-slide-index="1">
+                        <div class="layer"></div>
+                        <div class="main-slider-shape-1"></div>
+                        <div class="main-slider-shape-2"></div>
+                        <div class="main-slider-shape-3"></div>
+                        <div class="main-slider-shape-4"></div>
+                        <div class="main-slider-shape-5"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="main-slider__content">
+                                        <p>WELCOME TO BGI GENERAL TRADING</p>
+                                        <h2>GLOBAL TRADE BUILT ON TRUST</h2>
+                                        <a href="index.html" class="thm-btn">Discover More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide-active"
+                        style="background-image: url('./assets/images/slider/slide-2.png');"
+                        data-swiper-slide-index="1">
+                        <div class="layer"></div>
+                        <div class="main-slider-shape-1"></div>
+                        <div class="main-slider-shape-2"></div>
+                        <div class="main-slider-shape-3"></div>
+                        <div class="main-slider-shape-4"></div>
+                        <div class="main-slider-shape-5"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="main-slider__content">
+                                        <p>WELCOME TO BGI ADVERTISING</p>
+                                        <h2>CREATIVE MEDIA THAT DRIVES GROWTH</h2>
+                                        <a href="index.html" class="thm-btn">Discover More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next" tabindex="0" role="button"
+                        aria-label="Next slide"><span class="main-slider__next-text">Next</span><i
+                            class="icon-right-arrow icon-left-arrow"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev" tabindex="0" role="button"
+                        aria-label="Previous slide"><span class="main-slider__prev-text">Prev</span><i
+                            class="icon-right-arrow"></i>
+                    </div>
+                </div>
+
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+
+            </div>
+        </section>
+
+        <section class="welcome-one">
+            <div class="real-world-shape-right wow slideInRight animated" data-wow-delay="100ms"
+                data-wow-duration="2500ms"
+                style="background-image: url(&quot;assets/images/shapes/footer-shape.png&quot;); visibility: visible; animation-duration: 2500ms; animation-delay: 100ms; animation-name: slideInRight;">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="welcome-one__left">
+                            <div class="welcome-one__img-box">
+                                <div class="welcome-one__img-1 wow fadeInLeft">
+                                    <img src="assets/images/welcome-1-img-1.jpg" alt="">
+                                </div>
+                                <div class="welcome-one__img-2 wow fadeInLeft" data-wow-delay="200ms">
+                                    <img src="assets/images/welcome-1-img-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="welcome-one__right">
+                            <h2 class="welcome-one__title wow fadeInRight">DRIVING GROWTH WITH STRATEGIC EXPERTISE</h2>
+
+                            <p class="welcome-one__text wow fadeInRight" data-wow-delay="100ms">Bahri Group
+                                International LLC is a multi-division holding company delivering structured solutions
+                                across real estate advisory, global trading, and creative communication. Our operations
+                                are built on data-driven insight, industry knowledge, and disciplined execution.</p>
+
+                            <p class="welcome-one__text wow fadeInRight" data-wow-delay="100ms">We support investors,
+                                partners, and brands with services that enhance operational efficiency, strengthen
+                                market presence, and create sustainable value. Our integrated approach ensures
+                                consistency, reliability, and measurable outcomes in every engagement.</p>
+
+                            <p class="welcome-one__text-two wow fadeInRight" data-wow-delay="200ms">With 35+ years of
+                                combined leadership experience, we provide strategic consulting, market advisory, and
+                                end-to-end business support across key sectors.</p>
+
+                            <div class="welcome-one__call wow fadeInRight" data-wow-delay="300ms">
+                                <div class="welcome-one__call-icon">
+                                    <span class="icon-phone-ringing"></span>
+                                </div>
+                                <div class="welcome-one__call-text">
+                                    <p>Have any question? Give us a call</p>
+                                    <a href="tel:+971554961433">+971 55 496 1433</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="real-world">
+            <div class="real-world-shape wow slideInLeft animated" data-wow-delay="100ms" data-wow-duration="2500ms"
+                style="background-image: url(&quot;assets/images/shapes/real-world-shape.png&quot;); visibility: visible; animation-duration: 2500ms; animation-delay: 100ms; animation-name: slideInLeft;">
+            </div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="section-title__title wow fadeInUp">OUR CORE BUSINESS DIVISIONS</h2>
+                    <span class="section-title__tagline wow fadeInUp" data-wow-delay="100ms">We operate across three
+                        specialized sectors, delivering integrated solutions that support growth, efficiency, and
+                        long-term value.</span>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <!--Cases One Single-->
+                        <div class="cases-one__single">
+                            <div class="cases-one__img-box">
+                                <div class="cases-one__img">
+                                    <img src="assets/images/cases-1-img-1.jpg" alt="">
+                                </div>
+                                <div class="cases-one__content">
+                                    <div class="cases-one__icon">
+                                        <span class="icon-mobile-analytics"></span>
+                                    </div>
+                                    <p class="cases-one__tagline">Real Estate Advisory</p>
+                                    <h2 class="cases-one__tilte">
+                                        <a href="javascript:void(0)">BGI Property Advisors</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="300ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                        <!--Cases One Single-->
+                        <div class="cases-one__single">
+                            <div class="cases-one__img-box">
+                                <div class="cases-one__img">
+                                    <img src="assets/images/cases-1-img-2.jpg" alt="">
+                                </div>
+                                <div class="cases-one__content">
+                                    <div class="cases-one__icon">
+                                        <span class="icon-research"></span>
+                                    </div>
+                                    <p class="cases-one__tagline">Global Trading & Supply</p>
+                                    <h2 class="cases-one__tilte">
+                                        <a href="javascript:void(0)">BGI General Trading</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                        <!--Cases One Single-->
+                        <div class="cases-one__single">
+                            <div class="cases-one__img-box">
+                                <div class="cases-one__img">
+                                    <img src="assets/images/cases-1-img-3.jpg" alt="">
+                                </div>
+                                <div class="cases-one__content">
+                                    <div class="cases-one__icon">
+                                        <span class="icon-creative"></span>
+                                    </div>
+                                    <p class="cases-one__tagline">Creative Media & Branding</p>
+                                    <h2 class="cases-one__tilte">
+                                        <a href="javascript:void(0)">BGI Advertising</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-one">
+            <div class="container">
+                <h4 class="brand-one__title">Meet the partners</h4>
+                <div class="thm-swiper__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+                    data-swiper-options="{&quot;spaceBetween&quot;: 100, &quot;slidesPerView&quot;: 5, &quot;autoplay&quot;: { &quot;delay&quot;: 5000 }, &quot;breakpoints&quot;: {
+                    &quot;0&quot;: {
+                        &quot;spaceBetween&quot;: 30,
+                        &quot;slidesPerView&quot;: 2
+                    },
+                    &quot;375&quot;: {
+                        &quot;spaceBetween&quot;: 30,
+                        &quot;slidesPerView&quot;: 2
+                    },
+                    &quot;575&quot;: {
+                        &quot;spaceBetween&quot;: 30,
+                        &quot;slidesPerView&quot;: 3
+                    },
+                    &quot;767&quot;: {
+                        &quot;spaceBetween&quot;: 50,
+                        &quot;slidesPerView&quot;: 4
+                    },
+                    &quot;991&quot;: {
+                        &quot;spaceBetween&quot;: 50,
+                        &quot;slidesPerView&quot;: 5
+                    },
+                    &quot;1199&quot;: {
+                        &quot;spaceBetween&quot;: 100,
+                        &quot;slidesPerView&quot;: 5
+                    }
+                }}">
+                    <div class="swiper-wrapper"
+                        style="transform: translate3d(-762px, 0px, 0px); transition-duration: 0ms;">
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b1.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b2.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b3.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b4.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b5.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b6.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b7.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b8.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b9.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b10.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b11.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b12.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b13.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b14.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b15.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b16.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b17.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b18.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b19.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b20.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b21.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b22.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b23.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b24.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b25.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b26.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="width: 154px; margin-right: 100px;">
+                            <img src="assets/images/brand/b27.png" alt="">
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-one">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="section-title__title">Question Answers</h2>
+                    <span class="section-title__tagline">If you have any more questions, Contact us</span>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="faq-one__left">
+                            <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
+                                <div class="accrodion active">
+                                    <div class="accrodion-title">
+                                        <h4><span>.</span> What services does your company offer?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="">
+                                        <div class="inner">
+                                            <p>We provide specialized solutions across three divisions: Creative
+                                                Services, Digital Marketing, and Technology Solutions, ensuring
+                                                end-to-end support for brands seeking growth and operational efficiency.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4><span>.</span> How quickly can your team deliver a project?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Timelines depend on project scope, but most engagements begin within 48
+                                                hours, following a clear briefing and approval process to ensure
+                                                accuracy and quality.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4><span>.</span> Do you offer customized solutions?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Yes. Every project is tailored to the client’s objectives, industry
+                                                requirements, and long-term growth targets to ensure measurable business
+                                                impact.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4><span>.</span> How do you maintain quality across all divisions?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Each division operates with specialized teams, established processes, and
+                                                multi-stage quality checks to ensure consistent, high-performance
+                                                outcomes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="faq-one__right">
+                            <div class="faq-one__img">
+                                <img src="assets/images/faq-one-img-1.jpg" alt="">
+                            </div>
+                            <div class="faq-one__bottom">
+                                <div class="faq-one__list-box">
+                                    <ul class="list-unstyled faq-one__list">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-tick"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Driving growth across diversified global sectors.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-tick"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Delivering value through expertise and innovation.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-tick"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Empowering businesses with strategic integrated solutions.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-tick"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Connecting markets with reliable operational excellence.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-tick"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Building long-term partnerships founded on trust.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="faq-one__experience-box">
+                                    <h2>15</h2>
+                                    <p>Years of <br> Expeirence</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="testimonials-one__left">
+                            <div class="section-title text-left">
+                                <h2 class="section-title__title">What they are talking About</h2>
+                                <span class="section-title__tagline">Trusted by more than 100+ customers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="testimonials-one__right">
+                            <div class="testimonials-one__carousel owl-theme owl-carousel">
+
+                                <div class="testimonials-one__single">
+                                    <p class="testimonials-one__text">BGI Property Advisors guided us through a complex
+                                        investment with absolute clarity and professionalism. Their market insights,
+                                        due-diligence support, and strategic advice helped us secure a high-value
+                                        opportunity with confidence.</p>
+                                    <div class="testimonials-one__client-info">
+                                        <h5 class="testimonials-one__client-name">Todd Higgins</h5>
+                                        <p class="testimonials-one__client-title">Customer</p>
+                                    </div>
+                                    <div class="testimonials-one__client-img">
+                                        <img src="assets/images/testimonial/testimonials-1-1.png" alt="">
+                                    </div>
+                                    <div class="testimonials-one__quote"></div>
+                                </div>
+
+                                <div class="testimonials-one__single">
+                                    <p class="testimonials-one__text">Working with BGI General Trading has been seamless
+                                        from sourcing to delivery. Their reliability, product quality, and commitment to
+                                        on-time logistics have significantly strengthened our distribution operations.
+                                    </p>
+                                    <div class="testimonials-one__client-info">
+                                        <h5 class="testimonials-one__client-name">Haya Fatma</h5>
+                                        <p class="testimonials-one__client-title">Customer</p>
+                                    </div>
+                                    <div class="testimonials-one__client-img">
+                                        <img src="assets/images/testimonial/testimonials-1-2.png" alt="">
+                                    </div>
+                                    <div class="testimonials-one__quote"></div>
+                                </div>
+
+                                <div class="testimonials-one__single">
+                                    <p class="testimonials-one__text">BGI Advertising elevated our brand presence with
+                                        innovative creative work and premium production quality. Their team understood
+                                        our vision perfectly and delivered campaigns that exceeded expectations.</p>
+                                    <div class="testimonials-one__client-info">
+                                        <h5 class="testimonials-one__client-name">Paul Alvarez</h5>
+                                        <p class="testimonials-one__client-title">Customer</p>
+                                    </div>
+                                    <div class="testimonials-one__client-img">
+                                        <img src="assets/images/testimonial/testimonials-1-1.png" alt="">
+                                    </div>
+                                    <div class="testimonials-one__quote"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-mission">
+            <div class="our-mission-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+                style="background-image: url(assets/images/our-mission-bg.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="our-mission__inner">
+                            <h2 class="our-mission__title">Shaping Global Markets Through Real Estate, Trading &
+                                Creativity</h2>
+                            <a href="javascript:void(0)" class="thm-btn our-mission__btn">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="counters-one">
+            <div class="counters-one-bg" style="background-image: url(assets/images/backgrounds/counter-one-bg.jpg)">
+            </div>
+            <div class="container">
+                <ul class="counters-one__box list-unstyled">
+                    <li class="counter-one__single">
+                        <div class="counter-one__icon">
+                            <span class="icon-video"></span>
+                        </div>
+                        <h3>
+                            <span class="odometer" data-count="15">00</span>+
+                        </h3>
+                        <p class="counter-one__text">Years</p>
+                    </li>
+                    <li class="counter-one__single">
+                        <div class="counter-one__icon">
+                            <span class="icon-help"></span>
+                        </div>
+                        <h3>
+                            <span class="odometer" data-count="3">00</span>
+                        </h3>
+                        <p class="counter-one__text">Divisions</p>
+                    </li>
+                    <li class="counter-one__single">
+                        <div class="counter-one__icon">
+                            <span class="icon-customer-review"></span>
+                        </div>
+                        <h3>
+                            <spn class="odometer" data-count="50">00</spn>+
+                        </h3>
+                        <p class="counter-one__text">Projects</p>
+                    </li>
+                    <li class="counter-one__single">
+                        <div class="counter-one__icon">
+                            <span class="icon-consultant"></span>
+                        </div>
+                        <h3>
+                            <span class="odometer" data-count="100">00</span>+
+                        </h3>
+                        <p class="counter-one__text">Clients</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="financial-advice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="financial-advice__box tabs-box">
+                            <ul class="tab-btns tab-buttons clearfix list-unstyled">
+                                <li data-tab="#business" class="tab-btn active-btn">
+                                    <span>BGI Property Advisors <br> Real Estate Consultancy</span>
+                                </li>
+                                <li data-tab="#financial" class="tab-btn">
+                                    <span>BGI General <br>Trading Import & Export</span>
+                                </li>
+                                <li data-tab="#gobal" class="tab-btn">
+                                    <span>BGI Advertising <br> Creative Media & Branding</span>
+                                </li>
+                            </ul>
+                            <div class="tabs-content">
+
+                                <div class="tab active-tab" id="business">
+                                    <div class="financial-advice__content">
+                                        <div class="row">
+                                            <div class="col-xl-8 col-lg-8">
+                                                <p>BGI Property Advisors provides expert guidance in buying, selling,
+                                                    and investing in high-value properties. We help clients make
+                                                    informed decisions with tailored market insights.</p>
+
+                                                <h4>Investment & Advisory</h4>
+                                                <p>Our team assists investors and developers with strategic planning,
+                                                    market analysis, and property portfolio management. We ensure
+                                                    maximum returns and minimal risk.</p>
+
+                                                <h4>Why Choose Us</h4>
+                                                <p>Trusted, reliable, and professional, we bridge clients with lucrative
+                                                    opportunities in real estate.</p>
+
+                                                <ul class="list-unstyled financial-advice__list-box-2">
+                                                    <li>Market expertise across UAE & Africa</li>
+                                                    <li>Personalized investment strategies</li>
+                                                    <li>Comprehensive property solutions</li>
+                                                    <li>Long-term growth focus</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4">
+                                                <div class="financial-advice__single-1 financial-advice__single-3">
+                                                    <div class="financial-advice__img">
+                                                        <img src="assets/images/financial-advice-img-1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab " id="financial">
+                                    <div class="financial-advice__content">
+                                        <div class="row">
+                                            <div class="col-xl-8 col-lg-8">
+                                                <p>BGI General Trading specializes in importing and exporting premium
+                                                    products across multiple sectors, including lifestyle, beauty, food,
+                                                    and FMCG.</p>
+
+                                                <h4>Distribution & Market Reach</h4>
+                                                <p>We connect international brands with Middle East and African markets,
+                                                    providing seamless logistics and market entry solutions for our
+                                                    partners.</p>
+
+                                                <h4>Why Choose Us</h4>
+                                                <p>Efficient, global, and committed, we simplify trading and expand
+                                                    market access.</p>
+
+                                                <ul class="list-unstyled financial-advice__list-box-2">
+                                                    <li>Diverse product portfolio</li>
+                                                    <li>Strong logistics network</li>
+                                                    <li>Trusted international partnerships</li>
+                                                    <li>Targeted regional distribution</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4">
+                                                <div class="financial-advice__single-1 financial-advice__single-3">
+                                                    <div class="financial-advice__img">
+                                                        <img src="assets/images/financial-advice-img-1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab" id="gobal">
+                                    <div class="financial-advice__content">
+                                        <div class="row">
+                                            <div class="col-xl-8 col-lg-8">
+                                                <p>BGI Advertising delivers innovative media production, branding
+                                                    campaigns, and advertising strategies that elevate brand visibility
+                                                    and engagement.</p>
+
+                                                <h4>Hologram & Experiential Marketing</h4>
+                                                <p>We create immersive experiences through hologram technology and
+                                                    creative campaigns, ensuring brands leave a lasting impact.</p>
+
+                                                <h4>Why Choose Us</h4>
+                                                <p>Trusted, reliable, and professional, we bridge clients with lucrative
+                                                    opport</p>
+
+                                                <ul class="list-unstyled financial-advice__list-box-2">
+                                                    <li>High-end media production</li>
+                                                    <li>Integrated branding solutions</li>
+                                                    <li>Cutting-edge technology adoption</li>
+                                                    <li>Measurable campaign results</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4">
+                                                <div class="financial-advice__single-1 financial-advice__single-3">
+                                                    <div class="financial-advice__img">
+                                                        <img src="assets/images/financial-advice-img-1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63525.53393552566!2d55.07483524048478!3d25.12695365178738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1529c2653b15%3A0x3dcabcae764a3e16!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1764416525444!5m2!1sen!2sae"
+                class="google-map__one" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="cta-one">
+            <div class="cta-one-bg" style="background-image: url(assets/images/backgrounds/cta-one-bg.png)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="cta-one__inner">
+                            <div class="cta-one__left">
+                                <h2 class="cta-one__title">we’re delivering the best <br> customer experience</h2>
+                            </div>
+                            <div class="cta-one__right">
+                                <a href="contact.php" class="thm-btn cta-one__btn">let’s get started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <?php require('./inc/footer.php') ?>
+
+    </div>
+
+    <?php require('./inc/footer-script.php') ?>
+
+</body>
+
+</html>

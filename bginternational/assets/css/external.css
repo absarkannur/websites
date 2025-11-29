@@ -409,7 +409,7 @@ body.boxed-wrapper {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 18px 50px;
+    padding: 8px 20px;
     transition: 500ms;
     letter-spacing: 0.1em;
 }
@@ -1733,6 +1733,15 @@ body.boxed-wrapper {
     z-index: 30;
 }
 
+.main-slider .layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .main-slider .image-layer {
     position: absolute;
     top: 0;
@@ -1745,7 +1754,7 @@ body.boxed-wrapper {
     transform: scale(1);
     transition: transform 7000ms ease;
     z-index: 1;
-    background-color: var(--thm-black);
+    /* background-color: var(--thm-black); */
     background-blend-mode: luminosity;
     opacity: 0.1;
     background-position: center center;
@@ -2237,6 +2246,19 @@ body.boxed-wrapper {
     width: 610px;
     height: 595px;
     opacity: 0.08;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.real-world-shape-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 610px;
+    height: 595px;
+    opacity: 0.08;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .real-world .section-title {
@@ -2562,7 +2584,7 @@ body.boxed-wrapper {
 }
 
 .welcome-one__text-two {
-    font-size: 26px;
+    font-size: 24px;
     color: var(--thm-primary);
     font-weight: 400;
     line-height: 45px
@@ -2632,7 +2654,7 @@ body.boxed-wrapper {
 .welcome-one__call-icon {
     height: 68px;
     width: 68px;
-    background-color: #ebf1ff;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2656,11 +2678,12 @@ body.boxed-wrapper {
     font-size: 20px;
     font-weight: 400;
     margin: 0;
+    color: var(--thm-base);
 }
 
 .welcome-one__call-text a {
     font-size: 18px;
-    color: var(--thm-black);
+    color: var(--thm-base);
     transition: all 500ms ease;
 }
 
@@ -2671,7 +2694,6 @@ body.boxed-wrapper {
 .welcome-one__big-text {
     font-size: 120px;
     color: var(--thm-light);
-    ;
     text-transform: uppercase;
     letter-spacing: 0.4em;
     font-weight: 300;
@@ -2922,8 +2944,8 @@ body.boxed-wrapper {
 }
 
 .our-mission__title {
-    font-size: 60px;
     color: var(--thm-base);
+    font-size: 58px;
     font-weight: 900;
     line-height: 70px;
     text-transform: uppercase;
@@ -3125,9 +3147,9 @@ body.boxed-wrapper {
 }
 
 .faq-one__list li .text p {
+    font-size: 13px;
     margin: 0;
     font-weight: 400;
-    ;
 }
 
 .faq-one__experience-box {
@@ -3218,6 +3240,8 @@ body.boxed-wrapper {
 }
 
 .testimonials-one__text {
+    height: 230px;
+    line-height: 27px;
     margin: 0;
     color: var(--thm-light);
 }
@@ -3591,7 +3615,7 @@ body.boxed-wrapper {
     position: relative;
     display: block;
     border: none;
-    height: 555px;
+    height: 400px;
     width: 100%;
 }
 
@@ -4315,7 +4339,7 @@ body.boxed-wrapper {
 
 
 .services-one__title {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--thm-black);
     font-weight: 800;
     line-height: 34px;
@@ -5251,9 +5275,9 @@ body.boxed-wrapper {
 .contact-expert__input input[type="text"],
 .contact-expert__input textarea {
     width: 100%;
-    height: 70px;
-    padding-left: 30px;
-    padding-right: 50px;
+    height: 50px;
+    /* padding-left: 30px;
+    padding-right: 50px; */
     font-size: 14px;
     font-weight: 500;
     color: var(--thm-gray);
@@ -6140,10 +6164,10 @@ body.boxed-wrapper {
     background-size: cover;
     background-position: center center;
     background-color: var(--thm-black);
+    overflow: hidden;
 }
 
 .page-header__bg {
-    background-image: url(../images/backgrounds/page-header-bg.jpg);
     background-size: cover;
     background-color: var(--thm-black);
     background-blend-mode: luminosity;
@@ -6153,6 +6177,7 @@ body.boxed-wrapper {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 500px;
 }
 
 .page-header__inner {
@@ -6317,9 +6342,6 @@ body.boxed-wrapper {
     margin: 0;
 }
 
-.services-details__planning-list {
-    padding-top: 33px;
-}
 
 .services-details__planning-list li {
     position: relative;
@@ -6489,7 +6511,7 @@ body.boxed-wrapper {
     display: block;
     padding: 43px 50px 41px;
     margin-top: 30px;
-    background-color: var(--thm-primary);
+    background-color: var(--thm-black);
 }
 
 .services-details__help-box-bg {
@@ -7530,12 +7552,11 @@ body.boxed-wrapper {
 
 .comment-form__input-box input[type="text"],
 .comment-form__input-box input[type="email"] {
-    height: 70px;
+    height: 50px;
     width: 100%;
     border: none;
     background: var(--thm-light);
-    ;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 60px;
     margin-bottom: 30px;
     border-radius: 0px;
@@ -7571,7 +7592,7 @@ body.boxed-wrapper {
     width: 100%;
     background: var(--thm-light);
     ;
-    padding: 20px 30px 30px;
+    padding: 20px 20px 30px;
     border: none;
     border-radius: 0px;
     outline: none;
@@ -7591,11 +7612,24 @@ body.boxed-wrapper {
     position: relative;
     display: block;
     padding: 120px 0 120px;
+    background-color: #000000;
 }
 
+.message-box_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
+.message-box_list li {
+    margin-bottom: 5px;
+}
 
-
+.message-box_list li .fas {
+    margin-right: 10px;
+}
 
 .message-box__left .section-title__title {
     font-size: 48px;
@@ -7733,6 +7767,7 @@ body.boxed-wrapper {
 ## About
 --------------------------------------------------------------*/
 .about {
+    background-color: #000000;
     position: relative;
     display: block;
     padding: 120px 0 120px;
@@ -7760,13 +7795,22 @@ body.boxed-wrapper {
     margin-left: 68px;
 }
 
+.about__right .services-details__planning-list {
+    padding-bottom: 20px;
+}
+
+.about__right .services-details__planning-list li * p {
+    color: var(--thm-base);
+}
+
 .about__title {
-    font-size: 50px;
+    font-size: 44px;
     font-weight: 900;
     line-height: 60px;
     text-transform: uppercase;
-    margin-top: -12px;
+    margin-bottom: 20px;
     letter-spacing: var(--thm-letter-space-small);
+    color: var(--thm-base);
 }
 
 .about__icon-box {
@@ -7790,14 +7834,15 @@ body.boxed-wrapper {
 
 .about__icon-text p {
     font-weight: 600;
-    color: var(--thm-black);
+    color: var(--thm-base);
     margin: 0;
 }
 
 .about__right-text {
     font-weight: 400;
     margin: 0;
-    padding-bottom: 49px;
+    padding-bottom: 20px;
+    color: #fff;
 }
 
 .about__phone-contact {
@@ -7810,7 +7855,7 @@ body.boxed-wrapper {
 .about__phone-contact-icon {
     height: 68px;
     width: 68px;
-    background-color: #ebf1ff;
+    background-color: transparent;
     font-size: 35px;
     color: var(--thm-primary);
     display: flex;
@@ -7833,10 +7878,11 @@ body.boxed-wrapper {
     font-size: 20px;
     margin: 0;
     font-weight: 400;
+    color: var(--thm-base);
 }
 
 .about__phone-contact-text a {
-    color: var(--thm-black);
+    color: var(--thm-base);
 }
 
 /*Counter Page*/
