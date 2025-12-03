@@ -10,8 +10,7 @@
                         <div class="footer-widget__about-logo">
                             <a href="index.html"><img style="height: 90px;" src="assets/images/footer-logo.svg" alt=""></a>
                         </div>
-                        <p class="footer-widget__text">Welcome to our consultancy agency. Lore ipsum simply text
-                            amet cing elit.</p>
+                        <p class="footer-widget__text">Bahri Group International LLC is a UAE-based holding company operating across real estate advisory, import–export trading, and creative media.</p>
                         <ul class="list-unstyled footer-widget__contact-list">
                             <li>
                                 <div class="icon">
@@ -103,7 +102,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer-bottom__inner">
                         <div class="site-footer-bottom__left">
-                            <p>© Copyright 2025 by <a href="#">www.absar.com</a></p>
+                            <p>© Copyright 2025 by <a href="#">www.bginternational.com</a></p>
                         </div>
                         <div class="site-footer__social">
                             <a href="#"><i class="fab fa-twitter"></i></a>
