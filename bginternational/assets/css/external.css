@@ -4325,6 +4325,10 @@ body.boxed-wrapper {
     transform: scale(1);
 }
 
+.services-one__img>img:hover {
+    mix-blend-mode: normal;
+}
+
 .services-one__single:hover .services-one__img>img {
     transform: scale(1.05);
 }
